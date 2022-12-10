@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    {{>navbar}}
+    <div class="register login">
+        <div class="box">
+                    Add User | Login Detail
+            <form action="/register" method="post">
+            <input type="text" name="userName" id="userName" placeholder="Username">
+            <input type="text" name="firstName" id="firstName" placeholder="firstName">
+            <input type="text" name="lastName" id="lastName" placeholder="lastName">
+            <input type="password" name="password" id="password" placeholder="Password">
+            <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirm Password">
+            <input type="email" name="Email" id="Email" placeholder="Email">
+            <input type="text" name="Gender" id="   " placeholder="Gender">
+            <input type="number" name="phone" id="Phone No" placeholder="Phone No">
+            <input type="date" name="dob" id="dob" placeholder="dob">
+            <button type="submit">Proceed</button>
+            
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
